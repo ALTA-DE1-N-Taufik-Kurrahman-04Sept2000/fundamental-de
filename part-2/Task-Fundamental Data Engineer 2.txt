@@ -1,0 +1,24 @@
+TASK 2
+1. Kapan kita harus menggunakan relational database atau nosql database ?
+    Relational Database (SQL) lebih cocok digunakan ketika:
+    •	Data memiliki struktur yang terdefinisi dengan baik, seperti tabel dengan kolom-kolom yang jelas dan hubungan yang pasti antara tabel-tabel tersebut.
+    •	Aplikasi membutuhkan transaksi kompleks, misalnya dalam sistem keuangan atau manajemen stok. 
+    •	Jika aplikasi memerlukan seringnya operasi join, di mana data dari beberapa tabel digabungkan, relational database sangat efisien dalam melakukan hal ini.
+
+    Sementara NoSQL Database lebih sesuai ketika:
+    •	Data tidak memiliki struktur yang pasti atau harus bisa berubah seiring waktu. 
+    •	Ketika perlu untuk menangani volume data yang besar dengan cara menambahkan lebih banyak server/skalabilitas horizontal.
+    •	Jika aplikasi memerlukan tingkat akses baca yang tinggi atau perlu mengakses data secara paralel, NoSQL database bisa lebih responsif.
+
+2. Apa perbedaan antara database, data lake, data warehouse, dan data mart ?
+    •	Database: Menyimpan data terstruktur untuk aplikasi operasional.
+    •	Data Lake: Tempat penyimpanan semua jenis data, terstruktur maupun tidak.
+    •	Data Warehouse: Menyimpan data yang sudah diolah untuk analisis bisnis.
+    •	Data Mart: Subbagian data warehouse yang dioptimalkan untuk unit bisnis tertentu.
+
+3. Jelaskan apa itu normalisasi database, dan normalisasikan tabel dibawah !
+    Normalisasi database adalah proses perancangan database yang bertujuan untuk mengurangi data yang berlebihan 
+    dan memastikan bahwa data disimpan dengan cara yang terstruktur. Dalam normalisasi, tabel-tabel dalam database 
+    diorganisir agar setiap tabel memiliki informasi yang unik dan tidak ada duplikasi data yang tidak perlu. 
+    Ini membantu memastikan bahwa data konsisten dan menghindari masalah seperti inkonsistensi dan kesulitan dalam mengelola data. 
+    Dengan menerapkan aturan normalisasi, seperti Bentuk Normal Pertama (1NF) dan seterusnya, database menjadi lebih efisien dan mudah dikelola.
